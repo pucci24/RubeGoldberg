@@ -13,7 +13,7 @@ public class CameraControl : MonoBehaviour {
 		//is lookAtTarget defined?
 		if (lookAtTarget != null) {
 			//make this transform look at thing
-			transform.LookAt( lookAtTarget.position );
+			//transform.LookAt( lookAtTarget.position );
 		}
 		//is moveToTarget defined?
 		if (moveToTarget != null) {
@@ -28,7 +28,7 @@ public class CameraControl : MonoBehaviour {
 			}
 
 			//move this transform towards its destination
-			transform.position+=moveDirection *Time.deltaTime*10f;
+			transform.position+=moveDirection *Time.deltaTime*3f;
 
 		}
 	}

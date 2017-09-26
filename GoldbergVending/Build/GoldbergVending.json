@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "GoldbergVending.data.unityweb",
+"asmCodeUrl": "GoldbergVending.asm.code.unityweb",
+"asmMemoryUrl": "GoldbergVending.asm.memory.unityweb",
+"asmFrameworkUrl": "GoldbergVending.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
